@@ -20,3 +20,4 @@ with(hpc2d, plot(Global_active_power ~ datetime, type="l", xlab="", ylab="Global
 # Save file and close device
 dev.copy(png,"plot2.png", width=480, height=480)
 dev.off()
+
