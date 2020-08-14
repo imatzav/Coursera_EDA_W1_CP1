@@ -20,4 +20,3 @@ hpc2d <- cbind(hpc2d, datetime)
 # Save file and close device
 dev.copy(png,"plot4.png", width=480, height=480)
 dev.off()
-
